@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    font-family: 'Quantico', sans-serif;
+}
+
+header h1{
+  font-size: 32px;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  display: block;
+}
+
+
+
+.navbar {
+  background-color: #ffffff; /* Fondo blanco */
+  position: fixed; /* Fijar la posición */
+  left: 0; /* Alinear a la izquierda */
+  top: 0; /* Alinear arriba */
+  height: 100%; /* Altura del 100% */
+  width: 150px; /* Ancho del navbar */
+}
+
+.logo{
+  padding: 20px; /* Agregar espacio alrededor del contenido */
+}
+
+.navbar-item {
+  display: block; /* Convertir a en un elemento de bloque */
+  text-decoration: none; /* Eliminar subrayado */
+  color: #000000; /* Color de texto negro */
+  margin-bottom: 20px; /* Agregar un margen inferior de 20px */
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+ul{
+  text-align: center;
+}
+
+.navbar a:hover {
+  color:grey;
+}
+
+
+
+
+
+.footer-container {
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-text p {
+  color:white;
+  text-align: center;
+  margin-top: -0.5rem;
+}
+
+
+.footer-text {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto; /* Agregar esta línea */
+}
+
+.footer-icons a {
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #ccc;
+}
+
+
+
+
+/**IPHONE SE*/
+
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    margin-top: 20px;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+  }
+}
