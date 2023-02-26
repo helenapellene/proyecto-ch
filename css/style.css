@@ -107,31 +107,24 @@ ul{
 /**IPHONE SE*/
 
 
-@media (max-width: 640px) {
-  h1 {
-    font-size: 24px;
-  }
-  button {
-    width: 80%;
-  }
-}
-
-
 @media only screen and (max-width: 320px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
+    /* Estilos específicos para pantallas con una anchura máxima de 320 píxeles */
+    body {
+      font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    }
+    .header {
+      font-size: 12px; /* Tamaño de fuente más pequeño para el encabezado */
+    }
+    .navbar {
+      flex-wrap: wrap; /* Ajustar el menú a varias filas en pantallas pequeñas */
+    }
+    .navbar-item {
+      margin-right: 10px; /* Ajustar el margen de los elementos del menú */
+    }
+    .img-fluid {
+      max-width: 100%; /* Ajustar el tamaño de la imagen para que se ajuste al ancho de la pantalla */
+      height: auto; /* Ajustar la altura de la imagen de forma automática */
+    }
+    /* Agregar más estilos aquí según sea necesario */
   }
   
-  .navbar ul {
-    margin-top: 20px;
-  }
-  
-  .navbar li {
-    margin-bottom: 10px;
-  }
-  
-  .navbar a {
-    font-size: 18px;
-  }
-}
