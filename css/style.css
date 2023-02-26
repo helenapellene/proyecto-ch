@@ -12,6 +12,11 @@ body{
   display: block;
 }
 
+
+.btn{
+    color: #ccc;
+}
+
 .img-fluid {
     max-width: 90%;
     height:auto;
