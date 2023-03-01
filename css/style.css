@@ -1,146 +1,148 @@
 body{
-    background-color: black;
-    font-family: 'Quantico', sans-serif;
+  background-color: black;
+  font-family: 'Quantico', sans-serif;
 }
 
 
 #main-doc{
-  position: absolute;
-  margin-left: 310px;
-  padding: 20px;
-  margin-bottom: 110px;
-  display: block;
+position: absolute;
+margin-left: 310px;
+padding: 20px;
+margin-bottom: 110px;
+display: block;
 }
 
 
 .btn{
-    color: #ccc;
+  color: #ccc;
 }
 
 .img-fluid {
-    max-width: 90%;
-    height:auto;
-    left: auto;
-  }
+  max-width: 90%;
+  height:auto;
+  left: auto;
+}
 
-  .header {
-    text-align: center;
-    position: relative;
-    color: #ffffff;
-  }
+.header-in {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
 
 .navbar {
-  background-color: #ffffff; /* Fondo blanco */
-  position: fixed; /* Fijar la posición */
-  left: 0; /* Alinear a la izquierda */
-  top: 0; /* Alinear arriba */
-  height: 100%; /* Altura del 100% */
-  width: 150px; /* Ancho del navbar */
+background-color: #ffffff; /* Fondo blanco */
+position: fixed; /* Fijar la posición */
+left: 0; /* Alinear a la izquierda */
+top: 0; /* Alinear arriba */
+height: 100%; /* Altura del 100% */
+width: 150px; /* Ancho del navbar */
 }
 
 .logo{
-  padding: 20px; /* Agregar espacio alrededor del contenido */
+padding: 20px; /* Agregar espacio alrededor del contenido */
 }
 
 .navbar-item {
-  display: block; /* Convertir a en un elemento de bloque */
-  text-decoration: none; /* Eliminar subrayado */
-  color: #000000; /* Color de texto negro */
-  margin-bottom: 20px; /* Agregar un margen inferior de 20px */
-  text-decoration: none;
-  cursor: pointer;
-  
+display: block; /* Convertir a en un elemento de bloque */
+text-decoration: none; /* Eliminar subrayado */
+color: #000000; /* Color de texto negro */
+margin-bottom: 20px; /* Agregar un margen inferior de 20px */
+text-decoration: none;
+cursor: pointer;
+
 }
 
 ul{
-  text-align: center;
+text-align: center;
 }
 
 .navbar a:hover {
-  color:grey;
+color:grey;
 }
 
 
 
 .image-container img {
-  width: 30%;
-  margin: 10px;
+width: 30%;
+margin: 10px;
 }
 
 
 
 
 .footer-container {
-  padding: 1rem 4rem;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  height: 30px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+padding: 1rem 4rem;
+margin-top: 2rem;
+display: flex;
+justify-content: center;
+overflow: hidden;
+height: 30px;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
 }
 
 .footer-text p {
-  color:white;
-  text-align: center;
-  margin-top: -0.5rem;
+color:white;
+text-align: center;
+margin-top: -0.5rem;
 }
 
 
 .footer-text {
-  flex-grow: 1;
-  flex-shrink: 1;
+flex-grow: 1;
+flex-shrink: 1;
 }
 
 .footer-icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-left: auto; /* Agregar esta línea */
+display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-left: auto; /* Agregar esta línea */
 }
 
 .footer-icons a {
-  margin-right: 20px;
-  color: #fff;
-  text-decoration: none;
+margin-right: 20px;
+color: #fff;
+text-decoration: none;
 }
 
 .footer-icons a:hover {
-  color: #ccc;
+color: #ccc;
 }
 
 /**SECCION CLOTHING**/
 
+
+
 #header-cl {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
 }
 
 #nav-bar-cloth {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 #nav-bar-cloth ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 #nav-bar-cloth ul li {
-  margin: 0 10px;
+margin: 0 10px;
 }
 
 #header-img {
-  margin-right: 10px;
-  width: 50%; /* Reduce el ancho del logo a la mitad */
-  padding:0;
+margin-right: 10px;
+width: 50%; /* Reduce el ancho del logo a la mitad */
+padding:0;
 }
 
 
@@ -155,23 +157,22 @@ ul{
 
 
 @media only screen and (max-width: 320px) {
-    /* Estilos específicos para pantallas con una anchura máxima de 320 píxeles */
-    body {
-      font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
-    }
-    .header {
-      font-size: 12px; /* Tamaño de fuente más pequeño para el encabezado */
-    }
-    .navbar {
-      flex-wrap: wrap; /* Ajustar el menú a varias filas en pantallas pequeñas */
-    }
-    .navbar-item {
-      margin-right: 10px; /* Ajustar el margen de los elementos del menú */
-    }
-    .img-fluid {
-      max-width: 100%; /* Ajustar el tamaño de la imagen para que se ajuste al ancho de la pantalla */
-      height: auto; /* Ajustar la altura de la imagen de forma automática */
-    }
-    /* Agregar más estilos aquí según sea necesario */
+  /* Estilos específicos para pantallas con una anchura máxima de 320 píxeles */
+  body {
+    font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
   }
-  
+  .header {
+    font-size: 12px; /* Tamaño de fuente más pequeño para el encabezado */
+  }
+  .navbar {
+    flex-wrap: wrap; /* Ajustar el menú a varias filas en pantallas pequeñas */
+  }
+  .navbar-item {
+    margin-right: 10px; /* Ajustar el margen de los elementos del menú */
+  }
+  .img-fluid {
+    max-width: 100%; /* Ajustar el tamaño de la imagen para que se ajuste al ancho de la pantalla */
+    height: auto; /* Ajustar la altura de la imagen de forma automática */
+  }
+  /* Agregar más estilos aquí según sea necesario */
+}
