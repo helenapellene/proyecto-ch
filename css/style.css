@@ -1,3 +1,21 @@
+/*reset: siempre hacerlo.**/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*
+no me conviene pixeles porque NO es responsive
+px=imagenes
+
+medidas relativas,se adaptan a tipo de pantallas
+%=contenedores / 0 - 100 = 100% del ancho de pantalla / 50% = dependiendo del tam de mi pantalla, sera a la mitad
+rem=tam de letra /
+ 1rem=16px(fontsize standard de los navegadores)
+em=tam de letra /
+*/
+
 body{
   background-color: black;
   font-family: 'Quantico', sans-serif;
@@ -27,6 +45,7 @@ display: block;
   text-align: center;
   position: relative;
   color: #ffffff;
+  background-color:black;
 }
 
 .navbar {
@@ -116,11 +135,12 @@ color: #ccc;
 
 
 
-#header-cl {
+.header-cl {
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-top: 10px;
+margin-top: 0.5rem;;
+
 }
 
 #nav-bar-cloth {
@@ -128,16 +148,25 @@ display: flex;
 align-items: center;
 }
 
+#nav-bar-cloth a:hover {
+  color:grey;
+  }
+  
+
+
 #nav-bar-cloth ul {
-display: flex;
+  margin-left: 100px;
+  }
+
+
+#nav-bar-cloth ul a {
 list-style: none;
-margin: 0;
-padding: 0;
+text-decoration: none;
+padding-right:1rem;
+color:white;
 }
 
-#nav-bar-cloth ul li {
-margin: 0 10px;
-}
+
 
 #header-img {
 margin-right: 10px;
