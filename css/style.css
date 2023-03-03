@@ -137,35 +137,29 @@ color: #ccc;
 
 .header-cl {
 display: flex;
-justify-content: space-between;
-align-items: center;
-margin-top: 0.5rem;;
-
 }
 
-#nav-bar-cloth {
+.nav-bar-cloth {
 display: flex;
 align-items: center;
 }
 
-#nav-bar-cloth a:hover {
+.nav-bar-cloth a:hover {
   color:grey;
   }
-  
 
 
-#nav-bar-cloth ul {
-  margin-left: 100px;
-  }
 
-
-#nav-bar-cloth ul a {
+.nav-bar-cloth ul a {
 list-style: none;
 text-decoration: none;
 padding-right:1rem;
 color:white;
 }
 
+.navbar-item-cloth{
+  float:right;
+}
 
 
 #header-img {
