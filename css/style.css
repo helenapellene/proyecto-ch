@@ -59,6 +59,7 @@ span{
   border-radius: 10%;
 }
 
+
 .left-container {
   width: 50%;
   padding: 0 20px;
@@ -245,12 +246,34 @@ padding:0;
 }
 
 .catalogo{
+  display: block;
   margin-top:20px;
   color:gray;
-  text-align:center;
+  text-align: center;
   text-decoration: none;
 }
 
+.catalogo:hover{
+  color:white;
+}
+
+.ber-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ber-img div {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.ber-img img {
+  max-width: 50%;
+  height: auto;
+}
 /**IPHONE SE*/
 
 
