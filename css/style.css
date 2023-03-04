@@ -186,15 +186,10 @@ height: 117px;
 left: 8px;
 top: 30px;*/
 
-.header-cl {
-  
-}
-
 .nav-bar-cloth {
-  
-display: flex;
-align-items: center;
-}
+  display: flex;
+  align-items: center;
+  }
 
 .nav-bar-cloth ul a {
   list-style: none;
@@ -208,12 +203,6 @@ align-items: center;
   }
 
 
-
-
-
-
-
-
 #header-img {
 margin-right: 10px;
 width: 50%; /* Reduce el ancho del logo a la mitad */
@@ -221,8 +210,19 @@ padding:0;
 }
 
 
+/**MAIN**/
 
+.clothing-img{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+}
 
+.img-cl{
+  width: 70%; /* Ajustar el tamaño */
+  max-width: 100%; /* Agregar un ancho máximo */
+  padding: 1.5rem;
+}
 
 
 
