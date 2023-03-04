@@ -14,6 +14,13 @@ medidas relativas,se adaptan a tipo de pantallas
 rem=tam de letra /
  1rem=16px(fontsize standard de los navegadores)
 em=tam de letra /
+
+
+position:relative
+top right left bottom
+
+dif en relat y abs: relative mantiene su espacio, absolute no.
+si los combino, el tope de absolute sera las medidasd de RELATIVE
 */
 
 body{
@@ -30,23 +37,56 @@ margin-bottom: 110px;
 display: block;
 }
 
+/* INICIO: SECCION TITULO-BOTON-IMAGEN */
+#inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-container {
+  width: 50%;
+  padding: 0 20px;
+  text-align: center; 
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 100%;
+  height: auto;
+}
 
 .btn{
   color: #ccc;
+  align-self: center;
 }
 
-.img-fluid {
+.img-main {
   max-width: 90%;
-  height:auto;
+  height: auto;
   left: auto;
+  
 }
+/*----------------------------------*/
+
+
+/*HEADER: NAVBAR Y TEXTO DE ENVIO*/
 
 .header-in {
   text-align: center;
-  position: relative;
   color: #ffffff;
   background-color:black;
+  position: relative;
+  z-index: 2;
 }
+
 
 .navbar {
 background-color: #ffffff; /* Fondo blanco */
@@ -55,6 +95,7 @@ left: 0; /* Alinear a la izquierda */
 top: 0; /* Alinear arriba */
 height: 100%; /* Altura del 100% */
 width: 150px; /* Ancho del navbar */
+z-index:3;
 }
 
 .logo{
@@ -68,6 +109,7 @@ color: #000000; /* Color de texto negro */
 margin-bottom: 20px; /* Agregar un margen inferior de 20px */
 text-decoration: none;
 cursor: pointer;
+padding-top: 1.5rem;
 
 }
 
@@ -85,9 +127,10 @@ color:grey;
 width: 30%;
 margin: 10px;
 }
+/*----------------------------------*/
 
 
-
+/*FOOTER*/
 
 .footer-container {
 padding: 1rem 4rem;
@@ -118,7 +161,7 @@ flex-shrink: 1;
 display: flex;
 align-items: center;
 justify-content: flex-end;
-margin-left: auto; /* Agregar esta línea */
+margin-left: auto; 
 }
 
 .footer-icons a {
@@ -130,19 +173,35 @@ text-decoration: none;
 .footer-icons a:hover {
 color: #ccc;
 }
+/*----------------------------------*/
+
+
+
 
 /**SECCION CLOTHING**/
 
-
+/*position: absolute;
+width: 2316px;
+height: 117px;
+left: 8px;
+top: 30px;*/
 
 .header-cl {
-display: flex;
+  
 }
 
 .nav-bar-cloth {
+  
 display: flex;
 align-items: center;
 }
+
+.nav-bar-cloth ul a {
+  list-style: none;
+  text-decoration: none;
+  padding-right:1rem;
+  color:white;
+  }
 
 .nav-bar-cloth a:hover {
   color:grey;
@@ -150,16 +209,9 @@ align-items: center;
 
 
 
-.nav-bar-cloth ul a {
-list-style: none;
-text-decoration: none;
-padding-right:1rem;
-color:white;
-}
 
-.navbar-item-cloth{
-  float:right;
-}
+
+
 
 
 #header-img {
@@ -195,7 +247,7 @@ padding:0;
   }
   .img-fluid {
     max-width: 100%; /* Ajustar el tamaño de la imagen para que se ajuste al ancho de la pantalla */
-    height: auto; /* Ajustar la altura de la imagen de forma automática */
+    height: auto; 
   }
-  /* Agregar más estilos aquí según sea necesario */
+ 
 }
