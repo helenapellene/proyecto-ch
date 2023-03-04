@@ -275,7 +275,7 @@ padding:0;
   height: auto;
 }
 
-.footer-cont {
+.footer-cont{
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
@@ -285,14 +285,15 @@ padding:0;
 
 
 
-.footer-icons-section a {
-  margin-right: 10px;
-  color:#000000;
-  text-decoration: none;
+.footer-icons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.my-name {
-  margin-top: 10px;
+.footer-icons-section a {
+  color: black;
+  margin: 0 10px;
 }
 
 
