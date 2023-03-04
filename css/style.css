@@ -173,7 +173,7 @@ text-decoration: none;
 .footer-icons a:hover {
 color: #ccc;
 }
-/*----------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
 
 
 
@@ -224,6 +224,15 @@ padding:0;
   padding: 1.5rem;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #dfdfdf;
+}
 
 
 
