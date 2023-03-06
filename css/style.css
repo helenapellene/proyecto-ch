@@ -100,24 +100,24 @@ span{
 
 
 .navbar {
-background-color: #ffffff; /* Fondo blanco */
-position: fixed; /* Fijar la posición */
-left: 0; /* Alinear a la izquierda */
-top: 0; /* Alinear arriba */
-height: 100%; /* Altura del 100% */
-width: 150px; /* Ancho del navbar */
+background-color: #ffffff;
+position: fixed;
+left: 0;
+top: 0;
+height: 100%;
+width: 150px;
 z-index:3;
 }
 
 .logo{
-padding: 20px; /* Agregar espacio alrededor del contenido */
+padding: 20px;
 }
 
 .navbar-item {
-display: block; /* Convertir a en un elemento de bloque */
-text-decoration: none; /* Eliminar subrayado */
-color: #000000; /* Color de texto negro */
-margin-bottom: 20px; /* Agregar un margen inferior de 20px */
+display: block;
+text-decoration: none;
+color: #000000;
+margin-bottom: 20px;
 text-decoration: none;
 cursor: pointer;
 padding-top: 1.5rem;
@@ -156,22 +156,18 @@ left: 0;
 right: 0;
 }
 
-.footer-text p {
+.footer-text p{
 color:white;
 text-align: center;
 margin-top: -0.5rem;
 }
 
 
-.footer-text {
-flex-grow: 1;
-flex-shrink: 1;
-}
+
 
 .footer-icons {
 display: flex;
 align-items: center;
-justify-content: flex-end;
 margin-left: auto; 
 }
 
@@ -220,8 +216,12 @@ width: 50%;
 padding:0;
 }
 
+h2{
+  color:#ccc;
+  text-align: center;
+}
 
-/**MAIN**/
+                                        /**MAIN**/
 
 .clothing-img{
   display: flex;
@@ -257,21 +257,16 @@ padding:0;
   color:white;
 }
 
-.ber-img {
+.ber-img-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
-.ber-img div {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
-  text-align: center;
-}
 
-.ber-img img {
-  max-width: 50%;
+.img-ber {
+  max-width: 100%;
   height: auto;
 }
 
@@ -305,6 +300,18 @@ padding:0;
   margin-top: 70px;
 }
 
+/**jeans*/
+
+.jeans-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-jeans{
+  max-width: 100%;
+  height: auto;
+}
 
 
 /**IPHONE SE*/
