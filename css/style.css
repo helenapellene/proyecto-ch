@@ -193,19 +193,19 @@ height: 117px;
 left: 8px;
 top: 30px;*/
 
-.nav-bar-cloth {
+.nav-bar-sections {
   display: flex;
   align-items: center;
   }
 
-.nav-bar-cloth ul a {
+.nav-bar-sections ul a {
   list-style: none;
   text-decoration: none;
   padding-right:1rem;
   color:white;
   }
 
-.nav-bar-cloth a:hover {
+.nav-bar-sections a:hover {
   color:grey;
   }
 
