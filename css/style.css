@@ -270,6 +270,33 @@ h2{
   height: auto;
 }
 
+
+/**jeans*/
+
+.jeans-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-jeans{
+  max-width: 100%;
+  height: auto;
+}
+
+/*footwear*/
+
+.footwear-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-foot{
+  max-width: 100%;
+  height: auto;
+}
+
 .footer-cont{
   width: 100%;
   background-color: #f2f2f2;
@@ -300,18 +327,23 @@ h2{
   margin-top: 70px;
 }
 
-/**jeans*/
 
-.jeans-img-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.img-jeans{
-  max-width: 100%;
-  height: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**IPHONE SE*/
