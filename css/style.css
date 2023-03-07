@@ -156,9 +156,13 @@ left: 0;
 right: 0;
 }
 
+.footer-text{
+  
+text-align: center;
+}
+
 .footer-text p{
 color:white;
-text-align: center;
 margin-top: -0.5rem;
 }
 
@@ -286,17 +290,32 @@ h2{
 
 /*footwear*/
 
-.footwear-cont{
+.footwear-cont {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.img-foot{
-  max-width: 100%;
-  height: auto;
+.footwear-cont div {
+  margin-right: 20px; 
 }
 
+.footwear-cont div:last-child {
+  margin-right: 0; 
+}
+
+.img-foot {
+  max-width: 200px; 
+  height: auto; 
+}
+
+.footwear-cont p {
+  text-align: center;
+  margin-top: 50px;
+  color:white;
+}
+
+
+/*FOOTER*/
 .footer-cont{
   width: 100%;
   background-color: #f2f2f2;
@@ -328,10 +347,49 @@ h2{
 }
 
 
+/*como comprar*/
 
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0.2rem;
+}
 
+.compra-box {
+  border: white;
+  border-radius: 2px;
+  text-align: center;
+}
 
+.compra-box:first-child {
+  margin-right: 1.5rem;
+}
 
+.compra-box:last-child {
+  margin-left: 1.2rem;
+}
+
+.compra-box h3 {
+  background-color: #ddd;
+  font-size: 1.05rem;
+  padding: 1rem;
+}
+
+.compra-box h2 {
+  padding: 1rem;
+}
+
+.compra-box p {
+  padding: 0 4rem 1rem;
+  color:white;
+}
+
+.compra-box ul{
+  color:white;
+  list-style: none;
+}
 
 
 
